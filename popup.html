@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="logo">▣</div>
+    <div class="titles">
+      <h1>QR на видео</h1>
+      <span id="status">сканирование включено</span>
+    </div>
+    <label class="switch">
+      <input type="checkbox" id="enabled" checked>
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <main id="list"></main>
+
+  <footer>
+    <button id="clear" class="ghost">Очистить историю</button>
+    <span class="hint">кадры анализируются локально</span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
